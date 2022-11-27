@@ -64,6 +64,7 @@ const getSelectedValues = (propertyValue) => {
     return selItems;
 }
 
+
 function createAndUpdateStorage(employeePayrollData){
     let employeePayrollList = JSON.parse(localStorage.getItem("employeePeyrollList"));
 
